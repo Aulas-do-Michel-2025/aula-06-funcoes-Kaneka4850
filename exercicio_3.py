@@ -8,4 +8,6 @@ Exemplo de uso:
 >>> print(calcular_media([0, 100, 200]))
 >>> 100
 """
-
+def calcular_media(lista_de_valores):
+    media = sum(lista_de_valores) / len(lista_de_valores)
+    return media
